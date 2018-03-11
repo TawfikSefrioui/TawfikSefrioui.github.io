@@ -13,6 +13,7 @@
   <!-- Stylesheets-->
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald%7CLato:400italic,400,700">
   <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 		<!--[if lt IE 10]>
     <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     <script src="js/html5shiv.min.js"></script>
@@ -56,211 +57,308 @@
                   <div class="rd-navbar-mobile-scroll">
                     <!--Navbar Brand Mobile-->
                     <div class="rd-navbar-mobile-brand"><a href="index.html"><img width='203' height='70' class='img-responsive' src='images/new_logo_203_99.png' alt=''/></a></div>
-                      <!-- RD Navbar Nav-->
-                      <ul class="rd-navbar-nav">
-                        <li ><a href="index.html"><span>Home</span></a>
-                        </li>
-                        <li class="active"><a href="profil.html"><span>Profil</span></a>
-                        </li>
-                        <li><a href="services.html"><span>Services</span></a>
-                        </li>
-                        <li><a href="gallery.html"><span>Gallery</span></a>
-                        </li>
-                        <li><a href="training.html"><span>Training</span></a>
-                        </li>
-                        <li><a href="contact.html"><span>Contact</span></a>
-                        </li>
-                      </ul>
-                    </div>
+                    <!-- RD Navbar Nav-->
+                    <ul id="menu" active="Profil" class="rd-navbar-nav"></ul>
                   </div>
                 </div>
               </div>
-            </nav>
-          </div>
-        </header>
-        <div class="breadcrumb-inset-left">
-          <!-- Modern Breadcrumbs-->
-          <section class="breadcrumb-modern context-dark text-md-left">
-            <div class="shell section-34 section-md-top-110 section-md-bottom-41">
-              <h2>TAWFIK SEFRIOUI</h2>
-              <ul class="list-inline list-inline-arrows p offset-top-34 offset-md-top-70">
-                <li><a href="index.html" class="text-primary">Home</a></li>
-                <li>Profil</li>
-              </ul>
             </div>
-          </section>
+          </nav>
         </div>
-        <!-- Page Content-->
-        <main class="page-content">
-          <!-- team member section-->
-          <section class="section-98 section-sm-top-34 section-sm-bottom-110">
-            <div class="shell">
-              <div class="range range-xs-center">
-                <div class="cell-xs-10 cell-md-4">
-                  <!-- Member block type 5-->
-                  <div class="member-block-type-5 inset-md-right-20"><img src="images/doctor/banner-764-380_burned.jpg" width="320" height="320" alt="" class="img-responsive center-block"/>
-                    <div class="member-block-body"><!--<a href="make-an-appointment.html" class="btn btn-ellipse btn-primary">make an appointment</a>-->
-                      <address class="contact-info offset-top-20 offset-sm-top-24">
-                        <ul class="list-unstyled p">
-                          <li><span class="icon icon-xxxs text-middle text-primary mdi mdi-phone"></span><a href="callto:#" class="text-gray-darker">+212-661-050-523</a>
-                          </li>
-                          <li><span class="icon icon-xxxs text-middle text-primary mdi mdi-email-open"></span><a href="mailto:tawfiksefrioui@yahoo.com" class="text-middle reveal-inline-block">tawfiksefrioui@yahoo.com</a></li>
-                        </ul>
-                      </address>
-                      <div class="offset-top-24">
-                        <!-- <ul class="list-inline list-inline-xs">--> 
-                        <ul class="list-inline">
-                          <li><a href="https://www.facebook.com/Drtawfiksefrioui" class="icon fa fa-facebook icon-xxs icon-circle icon-gray-light"></a></li>
-                          <li><a href="https://www.twitter.com/tawfiksefrioui" class="icon fa fa-twitter icon-xxs icon-circle icon-gray-light"></a></li>
-                          <li><a href="https://www.instagram.com/prtawfiksefrioui" class="icon fa fa-instagram icon-xxs icon-circle icon-gray-light"></a></li>
-                        </ul>
-
-                      </div>
-                    </div>
-                  </div>
-                  <div class="offset-top-34 text-sm-left inset-md-right-20 hidden-xs">
-                    <h6 class="text-left">certificates</h6>
-                    <hr class="text-subline">
-                    <div class="range range-xs-center range-sm-left offset-top-24">
-                      <div class="cell-xs-8 cell-sm-4"><a class="thumbnail-classic" data-photo-swipe-item="" data-size="700x970" href="images/certifications/certificate-01-700x970.jpg">
-                        <figure><img width="100" height="138" src="images/certifications/certificate-01-100x138.jpg" alt=""/>
-                        </figure></a>
-                      </div>
-                      <div class="cell-xs-8 cell-sm-4 offset-top-20 offset-sm-top-0"><a class="thumbnail-classic" data-photo-swipe-item="" data-size="700x970" href="images/certifications/certificate-01-700x970.jpg">
-                        <figure><img width="100" height="138" src="images/certifications/certificate-01-100x138.jpg" alt=""/>
-                        </figure></a>
-                      </div>
-                      <div class="cell-xs-8 cell-sm-4 offset-top-20 offset-sm-top-0"><a class="thumbnail-classic" data-photo-swipe-item="" data-size="700x970" href="images/certifications/certificate-01-700x970.jpg">
-                        <figure><img width="100" height="138" src="images/certifications/certificate-01-100x138.jpg" alt=""/>
-                        </figure></a>
-                      </div>
-                      <div class="cell-xs-8 cell-sm-4 offset-top-20"><a class="thumbnail-classic" data-photo-swipe-item="" data-size="700x970" href="images/certifications/certificate-01-700x970.jpg">
-                        <figure><img width="100" height="138" src="images/certifications/certificate-01-100x138.jpg" alt=""/>
-                        </figure></a>
-                      </div>
-                      <div class="cell-xs-8 cell-sm-4 offset-top-20"><a class="thumbnail-classic" data-photo-swipe-item="" data-size="700x970" href="images/certifications/certificate-01-700x970.jpg">
-                        <figure><img width="100" height="138" src="images/certifications/certificate-01-100x138.jpg" alt=""/>
-                        </figure></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="cell-xs-10 cell-md-8 text-md-left offset-top-60 offset-md-top-0 ">
-                  <div class="range">
-                    <div class="cell-sm-5">
-                      <div>Position</div>
-                      <h5 class="text-bold">Cosmetic Surgeon</h5>
-                    </div>
-                    <div class="cell-sm-7 offset-top-41 offset-sm-top-0">
-                      <div>Education</div>
-                      <h5 class="text-bold">George Washington University</h5>
-                    </div>
-                  </div>
-                  <div class="offset-top-66 text-left">
-                    <h6>ABOUT DR. TAWFIK SEFRIOUI</h6>
-                    <hr class="text-subline">
-                    <p>Dr. Tawfik Sefrioui is a graduate of George Washington University, USA and later also taught at the prestigious University of Brown, USA. He has been extensively trained in USA at various centers into Cosmetic Surgery and cosmetic gynecology. He combines the art of non-invasive surgery with revolutionary and effective technology to succeed in scarless surgery, with fulgurant and amazing results almost better than invasive procedures: like vaser Liposculpture and full body-jet liposuction under local anesthesia, J-plasma skin tightening and so many other amazing non-invasive techniques.</p>
-                    <p>Dr. Sefrioui is also one of the international leaders in Regenerative medicine & stem cells therapy. Dr. Sefrioui is also a master of the G spot amplification, O-Shot, V-Shot and the INVENTOR of the intravaginal fat transfer for scarless vaginal rejuvenation and balancing of vaginal physiology in women without surgery, as well he takes care of the majority of erectile dysfunctions in men with effective and non-invasive protocols as well as recovery of urinary incontinence disorders. Throughout his long training and vast experience, Dr. Sefrioui has devoted much of his time to his continuing medical education, sharing his experience with the greatest across the world.</p>
-                    <p>Dr. Tawfik Sefrioui is an international member of the Society of Cosmetic Gynecology (TSCG) and the Chairman designate of the Moroccan Chapter of TSCG. A prominent member of the International Organizing Committee of RECOGYN 2017, Dr. Tawfik shall be extensively speaking and sharing his skills at RECOGYN.</p>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </section>
-          <!-- scott riley’s blog posts-->
-
-        </main>
-        <!-- Page Footer-->
-        <!-- Default footer-->
-        <footer class="section-relative section-top-66 section-bottom-34 page-footer bg-lighter">
-
-
-          <div class="shell-wide">
-            <div class="inset-xl-left-30">
-              <div class="range range-sm-center">
-                <div class="cell-sm-8 cell-md-12">
-                  <div class="range range-md-justify range-md-middle">
-                    <div class="cell-md-4 cell-md-push-1 text-md-left">
-                      <!-- Footer brand-->
-                      <div class="footer-brand reveal-inline-block">
-                        <h6>contact us</h6>
-                        <hr class="text-subline">
-                        <div class="text-center text-lg-left">
-                          <address class="contact-info reveal-sm-inline-block text-left">
-                            <div class="p unit unit-spacing-xxs unit-horizontal">
-
-                              <div class="unit-left"><span class="icon icon-xs icon-circle icon-gray-lighter mdi mdi-phone text-primary"></span></div>
-                              <div class="unit-body"><a href="tel:+212-522-398-689" class="text-gray-darker">+212-522-398-689</a><span class="text-gray-darker"><br/> </span><a href="tel:+212-661-050-523" class="text-gray-darker">+212-661-050-523</a></div>
-                            </div>
-                            <div class="p unit unit-spacing-xxs unit-horizontal offset-top-16">
-                              <div class="unit-left"><span class="icon icon-xxs mdi mdi-email-outline text-primary"></span></div>
-                              <div class="unit-body"><a href="mailto:tawfiksefrioui@yahoo.com" class="text-primary">tawfiksefrioui@yahoo.com</a></div>
-                            </div>
-                          </address>
-                        </div>
-
-                      </div>
-                    </div>
-                    <div class="cell-md-3 offset-top-55 offset-md-top-0 cell-md-push-3 text-md-right">
-                      <ul class="list-inline">
-                        <li><a href="https://www.facebook.com/Drtawfiksefrioui" class="icon fa fa-facebook icon-xxs icon-circle icon-white"></a></li>
-                        <li><a href="https://www.twitter.com/tawfiksefrioui" class="icon fa fa-twitter icon-xxs icon-circle icon-white"></a></li>
-                        <li><a href="https://www.instagram.com/prtawfiksefrioui" class="icon fa fa-instagram icon-xxs icon-circle icon-white"></a></li>
-                      </ul>
-                    </div>
-                    <div class="cell-md-4 offset-top-55 offset-md-top-0 cell-md-push-2">
-                      <p>&copy; <span id="copyright-year"></span> All Rights Reserved. <a href="privacy.html">Terms of Use and Privacy Policy</a></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+      </header>
+      <div class="breadcrumb-inset-left">
+        <!-- Modern Breadcrumbs-->
+        <section class="breadcrumb-modern context-dark text-md-left">
+          <div class="shell section-34 section-md-top-110 section-md-bottom-41">
+            <h2>TAWFIK SEFRIOUI</h2>
+            <ul class="list-inline list-inline-arrows p offset-top-34 offset-md-top-70">
+              <li><a href="index.html" class="text-primary">Home</a></li>
+              <li>Profil</li>
+            </ul>
           </div>
-        </Footer>
-
-
+        </section>
       </div>
-      <!-- Global Mailform Output-->
-      <div id="form-output-global" class="snackbars"></div>
-      <!-- PhotoSwipe Gallery-->
-      <div tabindex="-1" role="dialog" aria-hidden="true" class="pswp">
-        <div class="pswp__bg"></div>
-        <div class="pswp__scroll-wrap">
-          <div class="pswp__container">
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-          </div>
-          <div class="pswp__ui pswp__ui--hidden">
-            <div class="pswp__top-bar">
-              <div class="pswp__counter"></div>
-              <button title="Close (Esc)" class="pswp__button pswp__button--close"></button>
-              <button title="Share" class="pswp__button pswp__button--share"></button>
-              <button title="Toggle fullscreen" class="pswp__button pswp__button--fs"></button>
-              <button title="Zoom in/out" class="pswp__button pswp__button--zoom"></button>
-              <div class="pswp__preloader">
-                <div class="pswp__preloader__icn">
-                  <div class="pswp__preloader__cut">
-                    <div class="pswp__preloader__donut"></div>
+      <!-- Page Content-->
+      <main class="page-content">
+        <!-- team member section-->
+        <section class="section-98 section-sm-top-34 section-sm-bottom-110">
+          <div class="shell">
+            <div class="range range-xs-center">
+              <div class="cell-xs-10 cell-md-4">
+                <!-- Member block type 5-->
+                <div class="member-block-type-5 inset-md-right-20"><img src="images/doctor/docpro.png" style="width: 200px;height: 222px;" alt="" class="img-responsive center-block"/>
+                </div>
+                <div class="offset-top-34 text-sm-left inset-md-right-20 hidden-xs">
+                  <h6 class="text-left">certificates</h6>
+                  <hr class="text-subline">
+                  <div class="range range-xs-center range-sm-left offset-top-24">
+                    
+                    <div class="cell-xs-20 cell-sm-10 offset-top-20 offset-sm-top-0"><a class="thumbnail-classic" data-photo-swipe-item="" data-size="700x570" href="images/certifications/certifa1.jpg">
+                      <figure><img width="100" height="138" src="images/certifications/certifa1.jpg" alt=""/>
+                      </figure></a>
+                    </div>
+                    <div class="cell-xs-20 cell-sm-10 offset-top-20 offset-sm-top-0"><a class="thumbnail-classic" data-photo-swipe-item="" data-size="700x570" href="images/certifications/certifa2.jpg">
+                      <figure><img width="100" height="138" src="images/certifications/certifa2.jpg" alt=""/>
+                      </figure></a>
+                    </div>
+                    <div class="cell-xs-20 cell-sm-10 offset-top-20 offset-sm-top-0"><a class="thumbnail-classic" data-photo-swipe-item="" data-size="700x570" href="images/certifications/certifa3.jpg">
+                      <figure><img width="100" height="138" src="images/certifications/certifa3.jpg" alt=""/>
+                      </figure></a>
+                    </div>
+                    <div class="cell-xs-20 cell-sm-10 offset-top-20"><a class="thumbnail-classic" data-photo-swipe-item="" data-size="700x570" href="images/certifications/certifa4.jpg">
+                      <figure><img width="100" height="138" src="images/certifications/certifa4.jpg" alt=""/>
+                      </figure></a>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-              <div class="pswp__share-tooltip"></div>
-            </div>
-            <button title="Previous (arrow left)" class="pswp__button pswp__button--arrow--left"></button>
-            <button title="Next (arrow right)" class="pswp__button pswp__button--arrow--right"></button>
-            <div class="pswp__caption">
-              <div class="pswp__caption__center"></div>
+              <div class="cell-xs-10 cell-md-8 text-md-left offset-top-60 offset-md-top-0 ">
+                <div class="range">
+                  <div class="cell-sm-5">
+                    <div>Position</div>
+                    <h5 class="text-bold">Cosmetic Surgeon</h5>
+                  </div>
+                  <div class="cell-sm-7 offset-top-41 offset-sm-top-0">
+                    <div>Education</div>
+                    <h5 class="text-bold">George Washington University</h5>
+                  </div>
+                </div>
+                <div class="offset-top-66 text-left">
+                  <h6>ABOUT DR. TAWFIK SEFRIOUI</h6>
+                  <hr class="text-subline">
+                  
+                  <p>
+                   Whether you are looking for cosmetic or reconstructive surgery, Dr. Tawfik
+                   Sefrioui combines <strong>artistry with precision</strong> in every surgery
+                   he performs. Dr Tawfik Sefrioui has has been among the few Surgeons around
+                   the World pioneering as an innovator and Key Opinion Leader of Scarless
+                   Cosmetic surgery using a compilation of technologies and procedures to
+                   reach the best cosmetic results for his patients with the aim of
+                   Rejuvenation, Regeneration and mainly Beautification Process combining
+                   cutting-edge technology, <strong>artistry with precision</strong> and
+                   Know-how.
+                 </p>
+
+                 <p>
+                   with a key goal of achieving a “natural look” for his patients. His desire
+                   is for his patients to look and feel refreshed and youthful, without
+                   appearing fake or looking like someone else. Patients choose Dr. Sefrioui
+                   for his reputation, expertise and superior results. With over 17 years of
+                   experience, a medical degree from The George Washington University and
+                   Cosmetic surgical training throughout all this years trained by the medical
+                   stars of world, Dr Tawfik is certified for all the procedures he performs,
+                   Dr. Sefrioui is among few surgeons in the world to be trained at the Laser
+                   Vaginal Rejuvenation Institute in Los Angeles and to practice the surgical
+                   techniques appropriate to this procedure (<a href="http://www.lvria.org/" target="_blank">www.LVRIA.org</a>), and he
+                   did his fellowship of cosmetic surgery in 2011 at the school of Pr Ivo
+                   Pitanguy in Rio de Janeiro, Brasil where he learned the art of cosmetic
+                   surgery and was mentored by Pr Barbara Machado who walked him through an
+                   amazing surgical experience. he is today an international medical preceptor
+                   and Key Opinion Leader of most of his techniques teaching throughout the
+                   world and a Guest Speaker in many international meetings.Dr. Sefrioui is
+                   doing what he loves by helping men and women achieve their full potential.
+                 </p>
+                 <p>
+                   Dr. Tawfik Sefrioui’s high level of commitment to patient satisfaction and
+                   professional education has earned him a peer-voted distinction of
+                   <strong>
+                    a winner of two diamond crystal awards 2017 with aesthetic Everything
+                    social media,
+                  </strong>
+                  He is also an international member of numerous medical affiliations,
+                  including the American Academy of Cosmetic Surgery AACS, the American
+                  Society of Liposuction Surgery, the American Society of Laser Cosmetic
+                  Surgery, the American Academy of Aesthetic medecine, the ASLMS , the IMCAS
+                  academy, the ISDS , the A4M , the American Society of Hair Restauration and
+                  American Academy Board of Regenerative Medecine, the AAAM the American
+                  academy of aesthetic MEDECINE, the ISCG, Dr. Tawfik Sefrioui is an
+                  international member of the Society of Cosmetic Gynecology (TSCG) and the
+                  Chairman and a co-president designate of the Moroccan Chapter of TSCG. A
+                  prominent member of the International Organizing Committee of RECOGYN 2017,
+                  the American Medical Association. View his CV, Awards and Certifications.
+                </p>
+
+                <p>
+                 Dr. Tawfik Sefrioui has earned his excellent reputation with facial and
+                 body-sculpting Cosmetic surgery, and his forward thinking drives him to
+                 perfect new procedures and develop new ways of doing traditional
+                 surgeries.He combines the art of non-invasive surgery with revolutionary
+                 and effective technology to succeed in scarless surgery, with fulgurant and
+                 amazing results almost better than invasive procedures: like the full
+                 body-jet liposuction under local anesthesia which is currently the
+                 smoothest, fastest and most effective and efficient method in the world.
+                 Thanks to Dr. Sefrioui that Body-Jet is now available in Morocco, it is
+                 called as well a water-assisted-liposuction ( WAL) and performed under
+                 local anesthesia with more comfortable and significantly reduced recovery
+                 time, Dr Tawfik is as well a Pioneer in vaser Hi-Def 4D Liposculpture after
+                 being trained by the inventor of the technic Dr Alfredo Khoyos and Dr John
+                 Millard . Dr Tawfik Sefrioui is one of the key opinion Leader in many skin
+                 tightening technologies and so many other amazing non-invasive techniques.
+               </p>
+               <p>
+                 He is the inventor of Scarless Vaginal Rejuvenation with intravaginal
+                 enhanced fat Grafting associated with stem cells procedures for enhancing
+                 sexual arousal for woman. Dr.Tawfik and his staff focus on proven
+                 treatments that offer patients more comfort, less downtime His Magical
+                 Rapid Lift is a perfect example of facial rejuvenation performed under
+                 local anesthesia.
+               </p>
+               <p>
+                 A new milestone was achieved by Dr.Tawfik Sefrioui in 2016 as an innovator,
+                 key opinion leader and pioneer of <strong>Scarless Cosmetic Surgery </strong> After a longtime of performing
+                 traditional surgical procedures, Dr. Sefrioui is forging ahead with
+                 incisionless options for skin tightening and can now perform a face and
+                 neck lift, arm lift, tummy tuck or thigh lift without scars. He is as well
+                 the inventor of the Scarless tummy tuck and Diathesis repair as well the
+                 T&amp;T J Aqualift with the collaboration of Dr Thomas Tork the inventor of
+                 the Aqualift.
+               </p>
+               <p>
+                 Dr. Tawfik is also on the forefront of Regenerative Medecine Using
+                 Mesenchymal stem cells in the field of cosmetic beautification and the
+                 healing of Sport injuries-and degenerative diseases, Dr. Sefrioui is also
+                 one of the international leaders in Regenerative medicine &amp; stem cells
+                 therapy. And a prominent member of the AABRM THE AMERICAN ACADEMY BOARD OF
+                 REGENERATIVE MEDECINE, He is also a master of the G spot amplification,
+                 O-Shot, V-Shot and the INVENTOR of the intravaginal fat transfer for
+                 scarless vaginal rejuvenation and balancing of vaginal physiology in women
+                 without surgery, as well he takes care of the majority of erectile
+                 dysfunctions in men with effective and non-invasive protocols as well as
+                 recovery of urinary incontinence disorders. Throughout his long training
+                 and vast experience, Dr. Sefrioui has devoted much of his time to his
+                 continuing medical education, sharing his experience with the greatest
+                 across the world. he uses as well a micronized fat to treat wrinkles,
+                 facial rejuvenation and scar treatement, acne, hair loss using the SNIF
+                 Technique with a long-lasting results, he uses as well fillers such as
+                 Radiesse ®, Voluma® and the patient’s own fat to create extraordinary
+                 results with the <strong>Liquid Facelift</strong>.
+               </p>
+               <p>
+                 Dr. Tawfik Sefrioui regularly educates physicians on new injection
+                 techniques, liposuction, fat transfer, Regenerative Medecine and it’s
+                 medical applications as well as lipedema treatment, Gynecomastia with Vaser
+                 and Genital Cosmetic Surgery and has been featured on many live surgeries
+                 during important international meetings,
+               </p>
+               <p>
+                 Our Scarless Cosmetic Surgery Facility, offers various medical technologies
+                 which allow patients with a wide variety of skin conditions to be treated
+                 for sun damage and aging.
+               </p>
+               <p>
+                 As the Cosmetic surgery industry continues to evolve, we stay committed to
+                 providing excellent patient care while embracing the best the future has to
+                 offer.
+               </p>
+               
+
+
+             </div>
+
+           </div>
+         </div>
+       </div>
+     </section>
+     <!-- scott riley’s blog posts-->
+
+   </main>
+   <!-- Page Footer-->
+   <!-- Default footer-->
+   <footer class="section-relative section-top-66 section-bottom-34 page-footer bg-lighter">
+
+
+    <div class="shell-wide">
+      <div class="inset-xl-left-30">
+        <div class="range range-sm-center">
+          <div class="cell-sm-8 cell-md-12">
+            <div class="range range-md-justify range-md-middle">
+              <div class="cell-md-4 cell-md-push-1 text-md-left">
+                <!-- Footer brand-->
+                <div class="footer-brand reveal-inline-block">
+                  <h6>contact us</h6>
+                  <hr class="text-subline">
+                  <div class="text-center text-lg-left">
+                    <address class="contact-info reveal-sm-inline-block text-left">
+                      <div class="p unit unit-spacing-xxs unit-horizontal">
+
+                        <div class="unit-left"><span class="icon icon-xs icon-circle icon-gray-lighter mdi mdi-phone text-primary"></span></div>
+                        <div class="unit-body"><a href="tel:+212-522-398-689" class="text-gray-darker">+212-522-398-689</a><span class="text-gray-darker"><br/> </span><a href="tel:+212-661-050-523" class="text-gray-darker">+212-661-050-523</a></div>
+                      </div>
+                      <div class="p unit unit-spacing-xxs unit-horizontal offset-top-16">
+                        <div class="unit-left"><span class="icon icon-xxs mdi mdi-email-outline text-primary"></span></div>
+                        <div class="unit-body"><a href="mailto:tawfiksefrioui@yahoo.com" class="text-primary">tawfiksefrioui@yahoo.com</a></div>
+                      </div>
+                    </address>
+                  </div>
+
+                </div>
+              </div>
+              <div class="cell-md-2 offset-top-55 offset-md-top-0 cell-md-push-3 text-md-right">
+                <ul class="list-inline">
+                  <li><a href="https://www.facebook.com/Drtawfiksefrioui" class="icon fa fa-facebook icon-xxs icon-circle icon-white"></a></li>
+                  <li><a href="https://tawfiksefriouimd.blogspot.fr" class="icon fa fa-rss icon-xxs icon-circle icon-white"></a></li>
+                  <li><a href="https://www.twitter.com/tawfiksefrioui" class="icon fa fa-twitter icon-xxs icon-circle icon-white"></a></li>
+                  <li><a href="https://www.instagram.com/prtawfiksefrioui" class="icon fa fa-instagram icon-xxs icon-circle icon-white"></a></li>
+                  <li><a href="http://linkedin.com/in/tawfik-sefrioui-2026b999" class="icon fa fa-linkedin icon-xxs icon-circle icon-white"></a></li>
+                 <li><a href="https://plus.google.com/106784516428590632352" class="icon fa fa-google-plus icon-xxs icon-circle icon-white"></a></li>
+                  <li><a href="https://pin.it/try53wkxdc54kh" class="icon fa fa-pinterest icon-xxs icon-circle icon-white"></a></li> 
+                  <li><a href="https://drtawfiksefrioui.tumblr.com/post/171602509887/medecine-regenerative-utilisant-la-dernière" class="icon fa fa-tumblr icon-xxs icon-circle icon-white"></a></li>
+                 <li><a href="https://www.youtube.com/channel/UCO7piv3gf_jXv67a_RtQSxg" class="icon fa fa-youtube icon-xxs icon-circle icon-white"></a></li>
+                </ul>
+              </div>
+              <div class="cell-md-4 offset-top-55 offset-md-top-0 cell-md-push-2">
+                <p>&copy; <span id="copyright-year"></span> All Rights Reserved. <a href="privacy.html">Terms of Use and Privacy Policy</a></p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <!-- Java script-->
+    </div>
+  </Footer>
 
-      <script src="js/core.min.js"></script>
-      <script src="js/script.js"></script>
-    </body>
-    </html>
+
+</div>
+<!-- Global Mailform Output-->
+<div id="form-output-global" class="snackbars"></div>
+<!-- PhotoSwipe Gallery-->
+<div tabindex="-1" role="dialog" aria-hidden="true" class="pswp">
+  <div class="pswp__bg"></div>
+  <div class="pswp__scroll-wrap">
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    <div class="pswp__ui pswp__ui--hidden">
+      <div class="pswp__top-bar">
+        <div class="pswp__counter"></div>
+        <button title="Close (Esc)" class="pswp__button pswp__button--close"></button>
+        <button title="Share" class="pswp__button pswp__button--share"></button>
+        <button title="Toggle fullscreen" class="pswp__button pswp__button--fs"></button>
+        <button title="Zoom in/out" class="pswp__button pswp__button--zoom"></button>
+        <div class="pswp__preloader">
+          <div class="pswp__preloader__icn">
+            <div class="pswp__preloader__cut">
+              <div class="pswp__preloader__donut"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+        <div class="pswp__share-tooltip"></div>
+      </div>
+      <button title="Previous (arrow left)" class="pswp__button pswp__button--arrow--left"></button>
+      <button title="Next (arrow right)" class="pswp__button pswp__button--arrow--right"></button>
+      <div class="pswp__caption">
+        <div class="pswp__caption__center"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Java script-->
+
+<script src="js/menu.js"></script>
+<script src="js/core.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
